@@ -1,0 +1,44 @@
+/* MAIN SECTION */
+
+#ticket .informations p {
+    color: #fff;
+    margin-top: 15px;
+    font-size: 22px;
+    text-align: center;
+}
+
+#ticket .informations .buysections {
+    display: flex;
+    margin-top: 50px;
+    flex-direction: row;
+    color: #fff;
+    justify-content: space-between;
+}
+#ticket .informations .buysections .section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#ticket .informations .buysections .section ul{
+    margin-top: 30px;
+    text-align: center;
+    list-style-type: none;
+}
+
+#ticket .informations .buysections .section button {
+    margin-top: 20px;
+    width: 150px;
+    height: 36px;
+    background-color: transparent;
+    color: #53E453;
+    border: 1px solid #53E453;
+    border-radius: 20px;
+    transition: 0.4s;
+}
+
+#ticket .informations .buysections .section button:hover {
+    cursor: pointer;
+    background-color: #53E453;
+    color: #000;
+}

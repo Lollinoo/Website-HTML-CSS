@@ -1,0 +1,123 @@
+/*  START HOME SECTION */
+
+#home {
+    display: flex;
+    flex-direction: column;
+    color: #53E453;
+    height: 100vh;
+    align-items: center;
+    justify-content: center; 
+}
+
+#home::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../img/assets/background.png") no-repeat center center/cover;
+    height: 100vh;
+    width: 100%;
+    z-index: -1;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 250px;
+    left: 101px;
+    font-size: 120px;
+    font-weight: 300;
+    line-height: 138px;
+}
+
+/* END HOME SECTION */
+
+/* START SECTIONS */
+
+/*  PROPRIETA BASI COMUNI */
+
+#artistslist .artist {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+.pic .informations h2 {
+    font-weight: 200;
+    font-size: 64px;
+    color: #53E453;
+}
+
+.informations p,
+.pic .informations p {
+    color: #fff;
+    margin-top: 15px;
+    font-size: 22px;
+}
+
+
+.artist .pic img:hover {
+    background: rgba(83, 228, 83, 0.3); /* Green background with 30% opacity */
+    transition: 0.2s;
+}
+
+
+#whoweare .informations,
+#whatartistthere .informations {
+    margin-left: 50%;
+}
+
+
+#whoweare .informations .title-text,
+#whatartistthere .informations .title-text {
+    justify-content: flex-start;
+    
+}
+
+#whatartistthere .informations .title-text h2 {
+    text-align: left;
+}
+
+#whoweare .informations p,
+#whatartistthere .informations p {
+    width: 727px;
+}
+
+#morningactivity .informations p {  
+    width: 961px;
+    height: 297px; 
+    text-align: justify;
+    margin-top: 50px;
+}
+
+/* END SECTIONS */
+
+/* START ARTISTS LIST */
+
+#artistslist .artist {
+    display: flex;
+    flex-direction: column;
+}
+
+#artistslist .artist .pic {
+    display: flex;
+    align-items: center;
+}
+
+#artistslist .artist img {
+    width: 510px;
+    height: 600px;
+}
+
+#artistslist .artist .informations {
+    width: 638px;
+    height: 224px;
+}
+#artistslist .artist-left .informations {
+    margin-left: 50px; 
+}

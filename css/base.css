@@ -1,0 +1,143 @@
+body {
+    background-color: black;
+    height: 100vh;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gilroy', sans-serif;
+}
+
+/* START NAVBAR SECTION */
+.navbar {
+    display: flex;
+    justify-content: center;
+}
+
+.navbar ul {
+    display: flex;
+    list-style-type: none;
+    margin: 20px 50px;
+    align-items: center;
+}
+
+.navbar ul li {
+    font-size: 1.1em;
+    padding: 0 80px 15px 80px;
+    border-bottom: 1px solid white;
+}
+
+.navbar ul #img-logo {
+    border-bottom: none;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 4px 25px;
+    transition: all .5s ease;
+    border-radius: 20px;
+    font-size: 18px;
+    font-weight: light;
+}
+.navbar ul li img {
+    transition: all .5s ease;
+}
+
+.navbar ul li a:hover {
+    background-color: #53E453;
+    color: black;
+}
+
+/*  END NAVBAR SECTION */
+
+/*  START MAIN SECTIONS */
+.main-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.main-section .informations {
+    display: flex;
+    flex-direction: column;
+    height: 50%;
+    width: 50%;
+}
+
+.main-section .informations .title-text{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-section .informations .title-text img {
+    margin-left: 20px;
+}
+
+.main-section .informations .title-text h2 {
+    font-weight: 200;
+    font-size: 64px;
+    color: #53E453;
+    text-align: center; 
+}
+/*  END MAIN SECTIONS */
+
+
+
+/* START FOOTER SECTION */
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.footer .columns{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: auto;
+    background-color: transparent;
+    width: 100%;
+    padding: 60px 10%;
+    text-align: center;
+}
+
+.footer .columns ul {
+    list-style-type: none;
+}
+
+.footer .columns .footer-column {
+    width: 33.3%;
+}
+
+.footer .columns ul li:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.footer .columns ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+.footer .columns .footer-column:first-child ul li a {
+    color: #53E453;
+}
+
+.footer .columns .footer-column:first-child ul li a:hover {
+    color: #fff;
+}
+
+.footer .columns ul li a:hover {
+    color: #53E453;
+}
+
+/* END FOOTER SECTION */

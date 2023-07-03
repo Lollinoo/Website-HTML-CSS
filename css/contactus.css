@@ -1,0 +1,36 @@
+/* MAIN SECTION */
+
+/* CAMBIARE ASSET!!!!! */
+#contactus .informations .title-text img {
+    height: 73px;
+    width: 36px;
+}
+
+#contactus .informations  p {
+    color: #fff;
+    margin-top: 15px;
+    font-size: 22px;
+}
+
+#contactus .informations .section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+#contactus .informations .section ul{
+    margin-top: 30px;
+    text-align: center;
+    list-style-type: none;
+    color: #fff;
+}
+
+#contactus .informations .section ul li a{
+    text-decoration: none;
+    color: #53E453;
+}
+
+#contactus .informations .section ul li:not(:last-child) {
+    margin-bottom: 5px;
+}
